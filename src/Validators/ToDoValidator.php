@@ -17,9 +17,4 @@ class ToDoValidator extends Validator
     {
         $this->addString('taskDescription', true);
     }
-
-    public function buildCustomMessages()
-    {
-        // TODO: Implement buildCustomMessages() method.
-    }
 }
